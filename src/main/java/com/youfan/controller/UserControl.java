@@ -21,7 +21,7 @@ public class UserControl {
     public User getUserInfo() {
         User user = userServive.findUserInfo();
         if(user!=null){
-            System.out.println("user.getName():"+user.getName());
+            System.out.println("user.getName():"+user.getName()+"=========");
         }
         return user;
     }
